@@ -2,10 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
-
 .pixel-font {
-  font-family: 'Press Start 2P', cursive;
+  font-family: 'Press Start 2P', monospace;
   letter-spacing: 0.1em;
   line-height: 1.5;
+}
+
+body {
+  background-image: radial-gradient(#1e3a8a 1px, transparent 1px);
+  background-size: 16px 16px;
 }
